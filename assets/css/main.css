@@ -3288,6 +3288,7 @@ details[open] {
 .forfait {
 	justify-items: center;
 	width: 35%;
+	min-width: 300px;
 	background-color: #64646433;
 	box-shadow: rgba(255, 255, 255, 0.096) 0px 19px 38px, rgba(255, 255, 255, 0.096) 0px 15px 12px;
 	border-radius: 15% 85% 11% 89% / 90% 8% 92% 10%;
