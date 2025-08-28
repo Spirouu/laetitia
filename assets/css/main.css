@@ -320,6 +320,7 @@ form {
 		width: calc(100% - 40px);
 	}
 
+
 }
 
 /* Row */
@@ -2368,6 +2369,20 @@ ul.actions.special {
 	text-align: start;
 }
 
+#intro p.style2c {
+	font-size: medium;
+	color: #fff;
+	border-radius: 0.35em;
+	box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, 0.25);
+	letter-spacing: 0.075em;
+	line-height: 1.35em;
+	padding: 1em 0 1em 0;
+	margin-bottom: 1em;
+	padding: 1em;
+	width: 50%;
+	text-align: end;
+}
+
 #intro p.style2 a {
 	color: inherit;
 	text-decoration: none;
@@ -3080,6 +3095,14 @@ ul.actions.special {
 		padding: 1.25em;
 	}
 
+	#intro p.style2c {
+		text-align: justify;
+	}
+
+	#intro p.style2b {
+		text-align: justify;
+	}
+
 	/* Features */
 
 	#features header.style1 {
@@ -3299,20 +3322,22 @@ details[open] {
 .checkbox-wrapper-46 input[type="checkbox"] {
 	display: none;
 	visibility: hidden;
-  }
+}
 
-  .checkbox-wrapper-46 .cbx {
+.checkbox-wrapper-46 .cbx {
 	margin: auto;
 	-webkit-user-select: none;
 	user-select: none;
 	cursor: pointer;
-  }
-  .checkbox-wrapper-46 .cbx span {
+}
+
+.checkbox-wrapper-46 .cbx span {
 	display: inline-block;
 	vertical-align: middle;
 	transform: translate3d(0, 0, 0);
-  }
-  .checkbox-wrapper-46 .cbx span:first-child {
+}
+
+.checkbox-wrapper-46 .cbx span:first-child {
 	position: relative;
 	width: 18px;
 	height: 18px;
@@ -3321,8 +3346,9 @@ details[open] {
 	vertical-align: middle;
 	border: 1px solid #9098A9;
 	transition: all 0.2s ease;
-  }
-  .checkbox-wrapper-46 .cbx span:first-child svg {
+}
+
+.checkbox-wrapper-46 .cbx span:first-child svg {
 	position: absolute;
 	top: 3px;
 	left: 2px;
@@ -3336,8 +3362,9 @@ details[open] {
 	transition: all 0.3s ease;
 	transition-delay: 0.1s;
 	transform: translate3d(0, 0, 0);
-  }
-  .checkbox-wrapper-46 .cbx span:first-child:before {
+}
+
+.checkbox-wrapper-46 .cbx span:first-child:before {
 	content: "";
 	width: 100%;
 	height: 100%;
@@ -3346,29 +3373,33 @@ details[open] {
 	transform: scale(0);
 	opacity: 1;
 	border-radius: 50%;
-  }
-  .checkbox-wrapper-46 .cbx span:last-child {
-	padding-left: 8px;
-  }
-  .checkbox-wrapper-46 .cbx:hover span:first-child {
-	border-color: #506EEC;
-  }
+}
 
-  .checkbox-wrapper-46 .inp-cbx:checked + .cbx span:first-child {
+.checkbox-wrapper-46 .cbx span:last-child {
+	padding-left: 8px;
+}
+
+.checkbox-wrapper-46 .cbx:hover span:first-child {
+	border-color: #506EEC;
+}
+
+.checkbox-wrapper-46 .inp-cbx:checked+.cbx span:first-child {
 	background: #506EEC;
 	border-color: #506EEC;
 	animation: wave-46 0.4s ease;
-  }
-  .checkbox-wrapper-46 .inp-cbx:checked + .cbx span:first-child svg {
+}
+
+.checkbox-wrapper-46 .inp-cbx:checked+.cbx span:first-child svg {
 	stroke-dashoffset: 0;
-  }
-  .checkbox-wrapper-46 .inp-cbx:checked + .cbx span:first-child:before {
+}
+
+.checkbox-wrapper-46 .inp-cbx:checked+.cbx span:first-child:before {
 	transform: scale(3.5);
 	opacity: 0;
 	transition: all 0.6s ease;
-  }
+}
 
-.esth{
+.esth {
 	display: flex;
 	flex-wrap: wrap;
 	gap: 2em;
@@ -3383,7 +3414,7 @@ details[open] {
 	min-width: 300px;
 }
 
-.blocesth p{
+.blocesth p {
 	text-align: justify;
 }
 
@@ -3415,10 +3446,10 @@ details[open] {
 	margin-bottom: 10vh;
 }
 
-#moncontact  {
+#moncontact {
 	background-color: #000000;
 	opacity: 0.8;
-	border-radius: 92% 8% 96% 4% / 5% 95% 5% 95% ;
+	border-radius: 92% 8% 96% 4% / 5% 95% 5% 95%;
 	box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 	margin-top: 20vh;
 	height: auto;
@@ -3458,9 +3489,15 @@ details[open] {
 	padding: auto;
 	gap: 0.2em;
 }
+
 .cont2 {
 	text-align: start;
 	width: 60%;
 	color: white;
 	padding: auto;
+}
+
+.blocacc {
+	width: 100%;
+	min-width: 400px;
 }
